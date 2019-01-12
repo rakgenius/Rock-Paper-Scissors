@@ -1,0 +1,31 @@
+Steps to import and execute the program
+
+Requirements:
+
+Java 8
+Junit5
+Maven
+Intellij/Eclipse
+
+Import the project into Intellij/Eclipse
+
+1. Import the project as "Existing maven project" into either Intellij or eclipse
+2. Make sure Junit5 plugin is installed in the IDE and also Java 8 version JDK is installed
+
+
+Running the application
+
+1. Navigate to the folder "src/main/java/game"
+2. Right click on the file "RockPaperScissors.java" and select Run as "Java Application"
+3. It will ask user to enter one of the option between 0 and 2.
+   0 for ROCK, 1 for PAPER and 2 SCISSORS
+4. Once user enters his/her option then computer will make its option
+5. Depending on the two players options, the winner will be decided.
+6. Enter 999 to end the game. Once the game ends, the game stats will be displayed
+   which tells how many times user won, how many times computer won and number of ties
+
+
+Running the unit tests
+
+1. Navigate to the folder "src/test/java/game" and right click on the folder "game" and select
+   "Run tests in Game". This will run all unit tests present in the "game" folder.
